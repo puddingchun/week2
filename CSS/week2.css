@@ -1,0 +1,178 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+body{
+    font-family: Roboto, sans-serif, "Microsoft JhengHei";
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 24px;
+}
+/*roboto medium500, bold700,black900 Italic*/
+.banner{
+    height:958px;
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true) center center;
+    background-size: cover;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.name p{
+    line-height: 1.75;
+    font-weight: 700;
+}
+.name h1{
+    font-size: 80px;
+    line-height: 1.325;
+    font-weight: 900 ;
+    margin-bottom: 32px;
+}
+.name h2{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.name ul{
+    display: flex;
+    justify-content: space-between;
+}
+/*margin------------*/
+.mb_4{
+    margin-bottom: 4px;
+}
+.mb_8{
+    margin-bottom: 8px;
+}
+.mb_12{
+    margin-bottom: 12px;
+}
+.mb_16{
+    margin-bottom: 16px;
+}
+.mb_28{
+    margin-bottom: 28px;
+}
+.mb_32{
+    margin-bottom: 32px;
+}
+.mb_24{
+    margin-bottom: 24px;
+}
+.mb_48{
+    margin-bottom: 48px;
+}
+.mb_56{
+    margin-bottom: 56px;
+}
+.mb_68{
+    margin-bottom: 68px;
+}
+/*------------*/
+/*font------------*/
+.f20{
+    font-size: 20px;
+}
+.f24{
+    line-height: 1.75;
+}
+.f_normal{
+    font-style: normal;
+}
+/*------------*/
+.about h2{
+    margin-top:56px;
+    margin-bottom: 40px;
+    font-size: 64px;
+    line-height: 1.3125;
+}
+.about p{
+    font-weight: 700;    
+}
+.about img{
+    margin-bottom: 20px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.career{
+    margin: 0 auto;
+    border-top: 1px solid #000000;
+    padding-top: 28px;
+    width:384px;
+}
+.career li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.career li::before{
+    content: " ";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    margin-right: 16px;
+}
+.brand{
+    background-color: #000000;
+    border: 1px solid #707070;
+    color:#fff;
+    padding-bottom: 160px;
+}
+.brand h2{
+    margin-top:56px;
+    margin-bottom: 12px;
+    font-size: 64px;
+    line-height: 1.3125;
+}
+.photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.works{
+    margin-bottom: 96px;
+}
+.works h2{
+    margin-top:56px;
+    margin-bottom: 16px;
+    font-size: 64px;
+    line-height:1.3125;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.works h3{
+    font: 20px;
+    line-height: 2.1;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.contact{
+    background-color: #000000;
+    color:#fff;
+    padding: 64px 0px;
+}
+.contact h2{
+    margin-bottom: 16px;
+    font-size: 64px;
+    line-height: 1.3125;
+}
+a{
+    text-decoration: none;
+    color:#fff
+}
